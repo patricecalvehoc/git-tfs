@@ -42,7 +42,7 @@ Another better solution if you faced this problem is to use a custom workspace d
 
 You could set the workspace directory when cloning the tfs repository using the `--workspace` option :
 
-```DOS
+```Shell
 git tfs clone http://server/tfs $/Project/trunk project --workspace="c:\ws"
 ```
 
